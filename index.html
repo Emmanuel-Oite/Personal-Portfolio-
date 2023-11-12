@@ -13,7 +13,7 @@
 		<!-- Wrapper-->
 			<div id="wrapper">
 				<a href="#" class="logo">
-					<img src="Logo no BG.png" alt="Home" width="100">
+					<img id="logoImg" src="Logo no BG.png" alt="Home" width="100">
 			</a>
 				<!-- Nav -->
 					<nav id="nav">
@@ -116,6 +116,11 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
+			<script>
+				document.getElementById("logoImg").addEventListener("click", function () {
+						window.location.href = "#home";
+				});
+		</script>
+		
 	</body>
 </html>

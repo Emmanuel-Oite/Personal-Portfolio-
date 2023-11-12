@@ -2203,3 +2203,12 @@ input, select, textarea {
 			}
 
 		}
+/* Custom styles for the logo */
+.logo img {
+	transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+/* Custom styles for hover effect on the logo */
+.logo img:hover {
+	transform: scale(1.1); /* Adjust the scale factor as needed */
+}
