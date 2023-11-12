@@ -1565,6 +1565,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 10px;
 		}
 
 		.image.fit {
