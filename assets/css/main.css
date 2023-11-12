@@ -1314,7 +1314,7 @@ input, select, textarea {
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 2px;
+	border-radius: 10px;
 }
 
 	body {
@@ -1612,6 +1612,7 @@ input, select, textarea {
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
+		border-radius: 10px;
 	}
 
 		input[type="button"]:hover,
